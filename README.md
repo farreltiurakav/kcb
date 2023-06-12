@@ -7,7 +7,6 @@ import numpy as np
 #M. Utbah Husnuth Thoriq 21081010131
 #Albert Vincentius 21081010212
 
-
 model = torch.hub.load('ultralytics/yolov5', 'custom', 'last.onnx')
 
 know_distance = 40
