@@ -2,6 +2,12 @@ import cv2
 import torch 
 import numpy as np 
 
+#kelompok 6 kecerdasan buatan d081
+#Farrel Tiuraka Vierino 21081010222
+#M. Utbah Husnuth Thoriq 21081010131
+#Albert Vincentius 21081010212
+
+
 model = torch.hub.load('ultralytics/yolov5', 'custom', 'last.onnx')
 
 know_distance = 40
